@@ -12,6 +12,7 @@ export default defineConfig({
   operator: {
     name: "Carlos Natanauan"
   },
+  siteUrl: "https://cavite-budget-portal.buildworks.workers.dev",
   scope: {
     offices: [
       "Cavite 1st District Engineering Office",
