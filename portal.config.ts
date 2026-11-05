@@ -37,8 +37,10 @@ export default defineConfig({
       "leg:cavite:8th"
     ],
     exclude: [
-      // 2027: an irrigation line in Narvacan, Ilocos Sur (the irrigation list gives no region).
-      { key: "nia:house_only:ib:p931:r3", reason: "A pump in Narvacan, Ilocos Sur; Cavite here is a local place name, not the Province of Cavite." },
+      // 2027: irrigation lines in Guimba, Nueva Ecija (the irrigation list gives no region).
+      { key: "nia:house_only:ib:p931:r3", reason: "Narvacan, Casongsong and Cavite are barangays of Guimba, Nueva Ecija, not the Province of Cavite." },
+      { key: "nia:house_only:ib:p930:r16", reason: "A pump at Barangay Cavite in Guimba, Nueva Ecija, listed with other Guimba barangays (Subol, Calem); not the Province of Cavite." },
+      { key: "nia:house_only:ib:p900:r6", reason: "Listed among Central Luzon irrigation systems in Tarlac and Nueva Ecija; Cavite here is a local place name, not the Province of Cavite." },
 
       // 2020–2026, namesakes: places called Cavite in other provinces.
       { key: "gaa:18-001|construction of multipurpose building senior citizenvawcchild protection center barangay cavite alangalang leyte 124822272 11215587", reason: "A barangay named Cavite in Alangalang, Leyte, not the Province of Cavite." },
