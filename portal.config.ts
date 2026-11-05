@@ -10,7 +10,8 @@ export default defineConfig({
   name: "Province of Cavite",
   shortName: "Cavite",
   operator: {
-    name: "Carlos Natanauan"
+    name: "Carlos Natanauan",
+    url: "https://www.linkedin.com/in/carlosnatanauan"
   },
   siteUrl: "https://cavite-budget-portal.buildworks.workers.dev",
   scope: {
